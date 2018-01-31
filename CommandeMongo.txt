@@ -1,1 +1,2 @@
+//Agrégation des données par information de service
 MongoDB Enterprise > db.paris.aggregate([{"$match":{"category":"accommodation"}},{"$unwind":"$services"},{"$group":{"_id":"$services","effectif":{"$sum":1}}}])
