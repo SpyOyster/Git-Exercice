@@ -61,7 +61,7 @@ while (choix != 0) {
 			
 			//Cas d'une saisie incorrecte
 			if (choix!=0 && choix!=1 && choix!=2) {
-				console.log("Votre choix ne fait partie d'aucune des propositions");
+				console.log("Votre choix ne fait partie d'aucune des propositions, merci de contacter Didier si les instructions ne sont pas claires");
 			};
 
 		};
