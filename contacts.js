@@ -21,11 +21,11 @@ var contacts =[];
 
 //Création des premiers contacts
 var contact1 = Object.create(contact);
-	contact1.nom = "Nelsonne";
-	contact1.prenom = "Mélodie";
+	contact1.nom = "Nelson";
+	contact1.prenom = "Jean-Marc";
 var contact2 = Object.create(contact);
-	contact2.nom = "Levisse";
-	contact2.prenom = "Carole";
+	contact2.nom = "Devisse";
+	contact2.prenom = "Bob";
 	contacts.push(contact1);
 	contacts.push(contact2);
 
